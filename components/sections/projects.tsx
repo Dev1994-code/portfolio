@@ -337,13 +337,13 @@ export default function Projects() {
                   </div>
 
                   <div className="flex gap-4 pt-4">
-                    <Button
+                    {/* <Button
                       className="bg-orange-500 hover:bg-orange-600"
                       onClick={() => window.open(selectedProject.live, "_blank")}
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
-                    </Button>
+                    </Button> */}
                     <Button
                       variant="outline"
                       className="border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white"

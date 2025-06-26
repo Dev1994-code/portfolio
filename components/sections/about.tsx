@@ -28,9 +28,9 @@ export default function About() {
   ]
 
   const stats = [
-    { number: "50+", label: "Completed Projects", icon: <Zap className="w-6 h-6" /> },
+    { number: "10+", label: "Completed Projects", icon: <Zap className="w-6 h-6" /> },
     { number: "98%", label: "Client Satisfaction", icon: <Smartphone className="w-6 h-6" /> },
-    { number: "3+", label: "Years Experience", icon: <Code className="w-6 h-6" /> },
+    { number: "2+", label: "Years Experience", icon: <Code className="w-6 h-6" /> },
   ]
 
   return (
