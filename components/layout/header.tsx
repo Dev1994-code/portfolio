@@ -57,7 +57,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-slate-800 animate-in slide-in-from-top-2 duration-300">
+          <div className="md:hidden py-4 border-t border-slate-800 animate-in slide-in-from-top-2 duration-300 bg-slate-900">
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
                 <a

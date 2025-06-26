@@ -5,7 +5,7 @@ import Image from "next/image"
 import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
-  const technologies = ["React", "Node.js", "Laravel", "Spring Boot","Next.js", "JavaScript", "PHP", "Java", "Git"]
+  const technologies = ["React", "Node.js", "Laravel", "Spring Boot", "Next.js", "Tailwind", "Java", "Git"]
 
   const handleDownloadResume = () => {
     // Add your resume download logic here
@@ -22,22 +22,22 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-in slide-in-from-left duration-1000">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold">
+              {/* <h1 className="text-4xl md:text-6xl font-bold">
                 Hello<span className="text-orange-400">.</span>
-              </h1>
+              </h1> */}
               <div className="border-l-4 border-orange-400 pl-4">
                 <h2 className="text-2xl md:text-3xl font-light">I'm Dawit</h2>
               </div>
               <div className="text-3xl md:text-5xl font-bold">
                 <TypeAnimation
                   sequence={[
-                    "Software Developer",
+                    "Software Engineer",
                     2000,
                     "Full Stack Developer",
                     2000,
-                    "React Developer",
+                    "Laravel Developer",
                     2000,
-                    "Backend Developer",
+                    "React Developer",
                     2000,
                   ]}
                   wrapper="h3"
@@ -54,14 +54,14 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
-                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 transform hover:scale-105 transition-all duration-300"
+                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 transform hover:scale-105 transition-all duration-300 rounded-xl"
                 onClick={handleContactClick}
               >
                 Got a project?
               </Button>
               <Button
                 variant="outline"
-                className="border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white px-8 py-3 transform hover:scale-105 transition-all duration-300"
+                className="border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white px-8 py-3 transform hover:scale-105 transition-all duration-300 rounded-xl"
                 onClick={handleDownloadResume}
               >
                 My resume
@@ -74,7 +74,7 @@ export default function Hero() {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-orange-400 to-red-500 p-2 group-hover:scale-105 transition-transform duration-300">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-800">
                   <Image
-                    src="/profile.jpg?height=400&width=400"
+                    src="profile/profile.jpg?height=400&width=400"
                     alt="Dawit - Software Developer"
                     width={400}
                     height={400}
@@ -99,7 +99,7 @@ export default function Hero() {
                 className="text-center group cursor-pointer"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="p-4 rounded-lg bg-slate-800/50 group-hover:bg-slate-700 transition-all duration-300 group-hover:scale-110">
+                <div className="p-4 rounded-xl bg-slate-800/50 group-hover:bg-slate-700 transition-all duration-300 group-hover:scale-110">
                   <span className="text-sm group-hover:text-orange-400 transition-colors duration-300">{tech}</span>
                 </div>
               </div>

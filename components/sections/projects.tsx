@@ -15,7 +15,6 @@ interface Project {
   tech: string[]
   images: string[]
   github: string
-  live: string
   category: string
 }
 
@@ -26,107 +25,112 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
-      id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration",
-      longDescription:
-        "A comprehensive e-commerce platform built with React and Node.js, featuring user authentication, product catalog, shopping cart, payment processing with Stripe, order management, and admin dashboard. The application includes real-time inventory updates and email notifications.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      images: [
-        "/placeholder.svg?height=400&width=600&text=E-commerce+Home",
-        "/placeholder.svg?height=400&width=600&text=Product+Catalog",
-        "/placeholder.svg?height=400&width=600&text=Shopping+Cart",
-        "/placeholder.svg?height=400&width=600&text=Admin+Dashboard",
-      ],
-      github: "https://github.com/dawit/ecommerce",
-      live: "https://ecommerce-demo.vercel.app",
-      category: "fullstack",
-    },
+  "id": 1,
+  "title": "Church Donation Platform",
+  "description": "A secure and user-friendly platform for church donations with payment integration",
+  "longDescription": "A robust church donation platform developed using React and Node.js, designed to streamline contributions with features like user authentication, donation tracking, payment processing via Stripe, donor management, and an admin dashboard. The system ensures secure transactions, provides real-time donation updates, and sends confirmation emails to donors, fostering transparency and engagement within the church community.",
+  "tech": ["Flutter", "Spring-boot", "Mysql", "Nahu Pay", "JWT"],
+  "images": [
+    "/donation/d1.png?height=100&width=200&text=Church+Donation+Home",
+    "/donation/d2.png?height=100&width=200&text=Donation+Tracker",
+    "/donation/d3.png?height=100&width=200&text=Donor+Management",
+    "/donation/d4.png?height=100&width=00&text=Admin+Dashboard",
+    "/donation/d5.png?height=100&width=00&text=Admin+Dashboard",
+    "/donation/d6.png?height=100&width=00&text=Admin+Dashboard",
+    "/donation/d7.png?height=100&width=00&text=Admin+Dashboard",
+  ],
+  "github": "https://github.com/dawit/church-donation",
+  "category": "fullstack"
+},
     {
-      id: 2,
-      title: "Task Management App",
-      description: "Collaborative task management with real-time updates",
-      longDescription:
-        "A collaborative task management application built with Laravel and Vue.js. Features include project creation, task assignment, real-time notifications, file attachments, time tracking, and team collaboration tools. The app supports multiple workspaces and role-based permissions.",
-      tech: ["Laravel", "Vue.js", "MySQL", "WebSockets", "Redis"],
-      images: [
-        "/placeholder.svg?height=400&width=600&text=Task+Dashboard",
-        "/placeholder.svg?height=400&width=600&text=Project+View",
-        "/placeholder.svg?height=400&width=600&text=Team+Collaboration",
-        "/placeholder.svg?height=400&width=600&text=Analytics",
-      ],
-      github: "https://github.com/dawit/taskmanager",
-      live: "https://taskmanager-demo.com",
-      category: "fullstack",
-    },
+  id: 2,
+  title: "Spare Part Selling App",
+  description: "E-commerce platform for automotive spare parts",
+  longDescription:
+    "An online spare part selling application built with the MERN stack. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
+  tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
+  images: [
+    "/spare/s1.png?height=400&width=600&text=Product+Listing",
+    "/spare/s2.png?height=400&width=600&text=Product+Detail",
+    "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
+  ],
+  github: "https://github.com/dawit/spareparts-app",
+  category: "backend",
+},
     {
-      id: 3,
-      title: "API Gateway Service",
-      description: "Microservices API gateway with authentication",
-      longDescription:
-        "A robust API gateway built with Spring Boot that handles routing, authentication, rate limiting, and load balancing for microservices architecture. Includes JWT token validation, request/response transformation, logging, and monitoring capabilities.",
-      tech: ["Spring Boot", "Java", "PostgreSQL", "Redis", "Docker"],
-      images: [
-        "/placeholder.svg?height=400&width=600&text=API+Gateway+Architecture",
-        "/placeholder.svg?height=400&width=600&text=Monitoring+Dashboard",
-        "/placeholder.svg?height=400&width=600&text=Rate+Limiting",
-        "/placeholder.svg?height=400&width=600&text=Load+Balancer",
-      ],
-      github: "https://github.com/dawit/api-gateway",
-      live: "https://api-gateway-demo.com",
-      category: "backend",
-    },
+  id: 3,
+  title: "Nahu Payment Processor Documentation",
+  description: "Comprehensive developer documentation and SDKs for Nahu Payment",
+  longDescription:
+    "A complete documentation portal for the Nahu Payment Processor, designed to help developers easily integrate secure payment services into their applications. The documentation includes API references, authentication guides, request/response samples, error handling details, and SDKs for multiple languages. It also provides a testing sandbox, Postman collections, and quick-start tutorials for common use cases like mobile, web, and backend integrations.",
+  tech: ["Markdown", "Docusaurus","GitHub"],
+  images: [
+    "/documentation/d1.png?height=400&width=600&text=API+Docs+Overview",
+    "/documentation/d2.png?height=400&width=600&text=Authentication+Guide",
+    "/documentation/d3.png?height=400&width=600&text=SDKs+and+Examples",
+    "/documentation/d4.png?height=400&width=600&text=Integration+Tutorials",
+    "/documentation/d5.png?height=400&width=600&text=Integration+Tutorials",
+    "/documentation/d6.png?height=400&width=600&text=Integration+Tutorials",
+  ],
+  github: "https://github.com/dawit/nahu-payment-docs",
+  category: "documentation",
+},
     {
-      id: 4,
-      title: "React Dashboard",
-      description: "Modern admin dashboard with data visualization",
-      longDescription:
-        "A responsive admin dashboard built with React and TypeScript, featuring interactive charts, data tables, user management, and real-time analytics. The dashboard includes dark/light theme switching, customizable widgets, and export functionality.",
-      tech: ["React", "TypeScript", "Chart.js", "Tailwind CSS"],
-      images: [
-        "/placeholder.svg?height=400&width=600&text=Dashboard+Overview",
-        "/placeholder.svg?height=400&width=600&text=Analytics+Charts",
-        "/placeholder.svg?height=400&width=600&text=User+Management",
-        "/placeholder.svg?height=400&width=600&text=Settings+Panel",
-      ],
-      github: "https://github.com/dawit/react-dashboard",
-      live: "https://dashboard-demo.vercel.app",
-      category: "frontend",
-    },
-    {
-      id: 5,
-      title: "REST API Server",
-      description: "Scalable REST API with comprehensive documentation",
-      longDescription:
-        "A scalable REST API server built with Node.js and Express, featuring comprehensive CRUD operations, authentication middleware, input validation, error handling, and automated API documentation with Swagger. Includes rate limiting and security best practices.",
-      tech: ["Node.js", "Express", "MongoDB", "Swagger", "Jest"],
-      images: [
-        "/placeholder.svg?height=400&width=600&text=API+Documentation",
-        "/placeholder.svg?height=400&width=600&text=Endpoint+Testing",
-        "/placeholder.svg?height=400&width=600&text=Authentication+Flow",
-        "/placeholder.svg?height=400&width=600&text=Error+Handling",
-      ],
-      github: "https://github.com/dawit/rest-api",
-      live: "https://api-docs-demo.com",
-      category: "backend",
-    },
-    {
-      id: 6,
-      title: "Portfolio Website",
-      description: "Responsive portfolio with modern animations",
-      longDescription:
-        "A modern, responsive portfolio website built with Next.js and Tailwind CSS. Features smooth animations, dark theme, project galleries, contact forms, and optimized performance. The site includes SEO optimization and accessibility features.",
-      tech: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-      images: [
-        "/placeholder.svg?height=400&width=600&text=Portfolio+Home",
-        "/placeholder.svg?height=400&width=600&text=Project+Gallery",
-        "/placeholder.svg?height=400&width=600&text=About+Section",
-        "/placeholder.svg?height=400&width=600&text=Contact+Form",
-      ],
-      github: "https://github.com/dawit/portfolio",
-      live: "https://dawit-portfolio.vercel.app",
-      category: "frontend",
-    },
+  id: 4,
+  title: "Remittance App",
+  description: "Cross-platform remittance solution with secure transfers",
+  longDescription:
+    "A full-featured cross-platform remittance application built using Flutter for the frontend and Spring Boot for the backend. The app enables users to send and receive money securely, manage transactions, and view real-time transfer statuses. Features include user authentication, multi-currency support, transaction history, and integration with secure payment gateways.",
+  tech: ["Flutter", "Dart", "Spring Boot", "Java", "MySQL", "REST API"],
+  images: [
+    "/remit/r1.png?height=400&width=600&text=Send+Money+Screen",
+    "/remit/r2.png?height=400&width=600&text=Transaction+History",
+    "/remit/r3.png?height=400&width=600&text=User+Dashboard",
+    "/remit/r4.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r5.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r6.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r7.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r8.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r9.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r10.png?height=400&width=600&text=Login+and+Security",
+  ],
+  github: "https://github.com/dawit/remittance-app", // Replace with actual repo if different
+  category: "fullstack",
+},
+    // {
+    //   id: 5,
+    //   title: "REST API Server",
+    //   description: "Scalable REST API with comprehensive documentation",
+    //   longDescription:
+    //     "A scalable REST API server built with Node.js and Express, featuring comprehensive CRUD operations, authentication middleware, input validation, error handling, and automated API documentation with Swagger. Includes rate limiting and security best practices.",
+    //   tech: ["Node.js", "Express", "MongoDB", "Swagger", "Jest"],
+    //   images: [
+    //     "/placeholder.svg?height=400&width=600&text=API+Documentation",
+    //     "/placeholder.svg?height=400&width=600&text=Endpoint+Testing",
+    //     "/placeholder.svg?height=400&width=600&text=Authentication+Flow",
+    //     "/placeholder.svg?height=400&width=600&text=Error+Handling",
+    //   ],
+    //   github: "https://github.com/dawit/rest-api",
+    //   live: "https://api-docs-demo.com",
+    //   category: "backend",
+    // },
+    // {
+    //   id: 6,
+    //   title: "Portfolio Website",
+    //   description: "Responsive portfolio with modern animations",
+    //   longDescription:
+    //     "A modern, responsive portfolio website built with Next.js and Tailwind CSS. Features smooth animations, dark theme, project galleries, contact forms, and optimized performance. The site includes SEO optimization and accessibility features.",
+    //   tech: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
+    //   images: [
+    //     "/placeholder.svg?height=400&width=600&text=Portfolio+Home",
+    //     "/placeholder.svg?height=400&width=600&text=Project+Gallery",
+    //     "/placeholder.svg?height=400&width=600&text=About+Section",
+    //     "/placeholder.svg?height=400&width=600&text=Contact+Form",
+    //   ],
+    //   github: "https://github.com/dawit/portfolio",
+    //   live: "https://dawit-portfolio.vercel.app",
+    //   category: "frontend",
+    // },
   ]
 
   const categories = [
@@ -180,8 +184,8 @@ export default function Projects() {
               variant={filter === category.id ? "default" : "outline"}
               className={`${
                 filter === category.id
-                  ? "bg-orange-500 hover:bg-orange-600"
-                  : "border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white"
+                  ? "bg-orange-500 hover:bg-orange-600 rounded-xl"
+                  : "border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white rounded-xl"
               } transition-all duration-300`}
               onClick={() => setFilter(category.id)}
             >
@@ -195,7 +199,7 @@ export default function Projects() {
           {filteredProjects.map((project, index) => (
             <Card
               key={project.id}
-              className="bg-slate-800 border-slate-700 overflow-hidden group hover:border-orange-400 transition-all duration-300 cursor-pointer animate-in slide-in-from-bottom"
+              className="bg-slate-800 border-slate-700 rounded-xl overflow-hidden group hover:border-orange-400 hover:shadow-lg hover:shadow-orange-400/20 transition-all duration-300 cursor-pointer animate-in slide-in-from-bottom"
               style={{ animationDelay: `${index * 100}ms` }}
               onClick={() => openProjectModal(project)}
             >
@@ -204,8 +208,8 @@ export default function Projects() {
                   src={project.images[0] || "/placeholder.svg"}
                   alt={project.title}
                   width={400}
-                  height={250}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  height={200}
+                  className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                   <Button size="sm" className="bg-orange-500 hover:bg-orange-600">
@@ -214,13 +218,17 @@ export default function Projects() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2 text-white group-hover:text-orange-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold mb-2 text-white group-hover:text-orange-400 transition-colors duration-300">
                   {project.title}
                 </h3>
-                <p className="text-slate-400 mb-4 line-clamp-2">{project.description}</p>
+                <p className="text-slate-300 mb-4 line-clamp-2 text-sm leading-relaxed">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tech.slice(0, 3).map((tech, techIndex) => (
-                    <Badge key={techIndex} variant="secondary" className="bg-slate-700 text-orange-400">
+                    <Badge
+                      key={techIndex}
+                      variant="secondary"
+                      className="bg-slate-700 text-orange-300 font-medium border border-slate-600"
+                    >
                       {tech}
                     </Badge>
                   ))}
@@ -238,9 +246,9 @@ export default function Projects() {
         {/* Project Modal */}
         {selectedProject && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 animate-in fade-in duration-300">
-            <div className="bg-slate-800 rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="bg-slate-800 rounded-xl max-w-6xl w-full max-h-[95vh] overflow-y-auto border border-slate-700">
               <div className="sticky top-0 bg-slate-800 border-b border-slate-700 p-4 flex justify-between items-center">
-                <h3 className="text-2xl font-bold">{selectedProject.title}</h3>
+                <h3 className="text-2xl font-bold text-white">{selectedProject.title}</h3>
                 <Button variant="ghost" size="sm" onClick={closeProjectModal}>
                   <X className="w-6 h-6" />
                 </Button>
@@ -249,19 +257,21 @@ export default function Projects() {
               <div className="p-6">
                 {/* Image Gallery */}
                 <div className="relative mb-6">
-                  <div className="relative h-64 md:h-96 rounded-lg overflow-hidden">
+                  <div className="relative h-auto min-h-[300px] max-h-[500px] rounded-xl overflow-hidden border border-slate-700 bg-slate-900 flex items-center justify-center p-4">
                     <Image
                       src={selectedProject.images[currentImageIndex] || "/placeholder.svg"}
                       alt={`${selectedProject.title} - Image ${currentImageIndex + 1}`}
-                      fill
-                      className="object-cover"
+                      width={800}
+                      height={600}
+                      className="w-full h-auto object-contain rounded-lg"
+                      style={{ maxHeight: "70vh" }}
                     />
                     {selectedProject.images.length > 1 && (
                       <>
                         <Button
                           variant="ghost"
                           size="sm"
-                          className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70"
+                          className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white"
                           onClick={prevImage}
                         >
                           <ChevronLeft className="w-6 h-6" />
@@ -269,7 +279,7 @@ export default function Projects() {
                         <Button
                           variant="ghost"
                           size="sm"
-                          className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70"
+                          className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white"
                           onClick={nextImage}
                         >
                           <ChevronRight className="w-6 h-6" />
@@ -280,21 +290,23 @@ export default function Projects() {
 
                   {/* Image Thumbnails */}
                   {selectedProject.images.length > 1 && (
-                    <div className="flex gap-2 mt-4 overflow-x-auto">
+                    <div className="flex gap-2 mt-4 overflow-x-auto pb-2">
                       {selectedProject.images.map((image, index) => (
                         <button
                           key={index}
-                          className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all duration-300 ${
-                            index === currentImageIndex ? "border-orange-400" : "border-slate-600"
+                          className={`flex-shrink-0 w-20 h-16 rounded-lg overflow-hidden border-2 transition-all duration-300 bg-slate-900 flex items-center justify-center ${
+                            index === currentImageIndex
+                              ? "border-orange-400 shadow-lg shadow-orange-400/30"
+                              : "border-slate-600 hover:border-slate-500"
                           }`}
                           onClick={() => setCurrentImageIndex(index)}
                         >
                           <Image
                             src={image || "/placeholder.svg"}
                             alt={`Thumbnail ${index + 1}`}
-                            width={64}
+                            width={80}
                             height={64}
-                            className="w-full h-full object-cover"
+                            className="max-w-full max-h-full object-contain"
                           />
                         </button>
                       ))}
@@ -305,15 +317,19 @@ export default function Projects() {
                 {/* Project Details */}
                 <div className="space-y-6">
                   <div>
-                    <h4 className="text-lg font-semibold mb-2">Description</h4>
-                    <p className="text-slate-300 leading-relaxed">{selectedProject.longDescription}</p>
+                    <h4 className="text-lg font-bold mb-2 text-white">Description</h4>
+                    <p className="text-slate-200 leading-relaxed">{selectedProject.longDescription}</p>
                   </div>
 
                   <div>
-                    <h4 className="text-lg font-semibold mb-3">Technologies Used</h4>
+                    <h4 className="text-lg font-bold mb-3 text-white">Technologies Used</h4>
                     <div className="flex flex-wrap gap-2">
                       {selectedProject.tech.map((tech, index) => (
-                        <Badge key={index} variant="secondary" className="bg-slate-700 text-orange-400">
+                        <Badge
+                          key={index}
+                          variant="secondary"
+                          className="bg-slate-700 text-orange-300 font-medium border border-slate-600"
+                        >
                           {tech}
                         </Badge>
                       ))}

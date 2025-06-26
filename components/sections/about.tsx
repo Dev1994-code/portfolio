@@ -71,11 +71,11 @@ export default function About() {
             <div className="space-y-4 text-slate-300 leading-relaxed">
               <p>
                 I started my software development journey with a passion for creating digital solutions that make a
-                difference. With over 3 years of experience, I've worked on diverse projects ranging from e-commerce
+                difference. With over 2 years of experience, I've worked on diverse projects ranging from jobify
                 platforms to enterprise applications.
               </p>
               <p>
-                My expertise spans across modern web technologies including React, Node.js, Laravel, and Spring Boot. I
+                My expertise spans across modern web technologies including React, Node.js, Next.js, Laravel, Spring Boot and Tailwind. I
                 believe in writing clean, maintainable code and following best practices to deliver high-quality
                 solutions.
               </p>

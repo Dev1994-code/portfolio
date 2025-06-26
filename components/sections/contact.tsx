@@ -120,7 +120,7 @@ export default function Contact() {
                       required
                       value={formData.name}
                       onChange={handleInputChange}
-                      className="bg-slate-700 border-slate-600 focus:border-orange-400"
+                      className="bg-slate-700 border-slate-600 focus:border-orange-400 rounded-xl"
                       placeholder="Your name"
                     />
                   </div>
@@ -135,7 +135,7 @@ export default function Contact() {
                       required
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="bg-slate-700 border-slate-600 focus:border-orange-400"
+                      className="bg-slate-700 border-slate-600 focus:border-orange-400 rounded-xl"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -152,7 +152,7 @@ export default function Contact() {
                     required
                     value={formData.subject}
                     onChange={handleInputChange}
-                    className="bg-slate-700 border-slate-600 focus:border-orange-400"
+                    className="bg-slate-700 border-slate-600 focus:border-orange-400 rounded-xl"
                     placeholder="Project discussion"
                   />
                 </div>
@@ -168,7 +168,7 @@ export default function Contact() {
                     rows={6}
                     value={formData.message}
                     onChange={handleInputChange}
-                    className="bg-slate-700 border-slate-600 focus:border-orange-400 resize-none"
+                    className="bg-slate-700 border-slate-600 focus:border-orange-400 resize-none rounded-xl"
                     placeholder="Tell me about your project..."
                   />
                 </div>
@@ -176,7 +176,7 @@ export default function Contact() {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-orange-500 hover:bg-orange-600 disabled:opacity-50"
+                  className="w-full bg-orange-500 hover:bg-orange-600 disabled:opacity-50 rounded-xl"
                 >
                   {isSubmitting ? (
                     <>
