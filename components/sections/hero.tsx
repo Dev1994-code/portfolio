@@ -78,7 +78,7 @@ export default function Hero() {
                     alt="Dawit - Software Developer"
                     width={400}
                     height={400}
-                    className="w-full h-full object-cover"
+                    className="w-full h-96 object-cover"
                   />
                 </div>
               </div>
