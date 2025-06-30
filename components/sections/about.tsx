@@ -23,7 +23,7 @@ export default function About() {
     {
       icon: <Cloud className="w-8 h-8" />,
       title: "Cloud Deployment",
-      description: "Deploying applications on AWS, Vercel, and other cloud platforms with CI/CD pipelines",
+      description: "Deploying applications on Render,Netlify, Vercel, and other cloud platforms with CI/CD pipelines",
     },
   ]
 
@@ -71,7 +71,7 @@ export default function About() {
             <div className="space-y-4 text-slate-300 leading-relaxed">
               <p>
                 I started my software development journey with a passion for creating digital solutions that make a
-                difference. With over 2 years of experience, I've worked on diverse projects ranging from jobify
+                difference. With over 2 years of experience, I've worked on diverse projects ranging from E-commerce
                 platforms to enterprise applications.
               </p>
               <p>

@@ -26,6 +26,25 @@ export default function Projects() {
   const projects: Project[] = [
     {
   "id": 1,
+  "title": "NahuPay Merchant Platform",
+  "description": "A powerful and secure platform for merchants to manage transactions and payments efficiently",
+  "longDescription": "An advanced NahuPay merchant platform built with React and Spring Boot, offering seamless transaction management, payment processing, and real-time financial tracking. Key features include merchant authentication, multi-bank API integrations, wallet service support, and a comprehensive dashboard for monitoring sales and payouts. Designed with robust security measures and an intuitive interface, it empowers merchants to optimize their business operations with ease.",
+  "tech": ["React", "Spring Boot", "MySQL", "Twilio", "JWT", "Postman"],
+  "images": [
+    "/merchant/m1.png?height=100&width=200&text=Church+Donation+Home",
+    "/merchant/m2.png?height=100&width=200&text=Donation+Tracker",
+    "/merchant/m3.png?height=100&width=200&text=Donor+Management",
+    "/merchant/m4.png?height=100&width=00&text=Admin+Dashboard",
+    "/merchant/m5.png?height=100&width=00&text=Admin+Dashboard",
+    "/merchant/m6.png?height=100&width=00&text=Admin+Dashboard",
+    "/merchant/m7.png?height=100&width=00&text=Admin+Dashboard",
+    "/merchant/m8.png?height=100&width=00&text=Admin+Dashboard",
+  ],
+  "github": "https://github.com/nahusystems/nahupay_fpa",
+  "category": "fullstack"
+},
+{
+  "id": 2,
   "title": "Church Donation Platform",
   "description": "A secure and user-friendly platform for church donations with payment integration",
   "longDescription": "A robust church donation platform developed using React and Node.js, designed to streamline contributions with features like user authentication, donation tracking, payment processing via Stripe, donor management, and an admin dashboard. The system ensures secure transactions, provides real-time donation updates, and sends confirmation emails to donors, fostering transparency and engagement within the church community.",
@@ -39,26 +58,27 @@ export default function Projects() {
     "/donation/d6.png?height=100&width=00&text=Admin+Dashboard",
     "/donation/d7.png?height=100&width=00&text=Admin+Dashboard",
   ],
-  "github": "https://github.com/dawit/church-donation",
+  "github": "https://github.com/nahusystems/eotc_donation_mobile",
   "category": "fullstack"
 },
+
     {
-  id: 2,
+  id: 3,
   title: "Spare Part Selling App",
   description: "E-commerce platform for automotive spare parts",
   longDescription:
-    "An online spare part selling application built with the MERN stack. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
+    "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
   tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
   images: [
     "/spare/s1.png?height=400&width=600&text=Product+Listing",
     "/spare/s2.png?height=400&width=600&text=Product+Detail",
     "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
   ],
-  github: "https://github.com/dawit/spareparts-app",
+  github: "https://github.com/Dev1994-code",
   category: "backend",
 },
     {
-  id: 3,
+  id: 4,
   title: "Nahu Payment Processor Documentation",
   description: "Comprehensive developer documentation and SDKs for Nahu Payment",
   longDescription:
@@ -72,19 +92,18 @@ export default function Projects() {
     "/documentation/d5.png?height=400&width=600&text=Integration+Tutorials",
     "/documentation/d6.png?height=400&width=600&text=Integration+Tutorials",
   ],
-  github: "https://github.com/dawit/nahu-payment-docs",
+  github: "https://github.com/Dev1994-code",
   category: "documentation",
 },
     {
-  id: 4,
+  id: 5,
   title: "Remittance App",
   description: "Cross-platform remittance solution with secure transfers",
   longDescription:
     "A full-featured cross-platform remittance application built using Flutter for the frontend and Spring Boot for the backend. The app enables users to send and receive money securely, manage transactions, and view real-time transfer statuses. Features include user authentication, multi-currency support, transaction history, and integration with secure payment gateways.",
   tech: ["Flutter", "Dart", "Spring Boot", "Java", "MySQL", "REST API"],
   images: [
-    "/remit/r1.png?height=400&width=600&text=Send+Money+Screen",
-    "/remit/r2.png?height=400&width=600&text=Transaction+History",
+    "/remit/r2.png?height=400&width=600&text=Send+Money+Screen",
     "/remit/r3.png?height=400&width=600&text=User+Dashboard",
     "/remit/r4.png?height=400&width=600&text=Login+and+Security",
     "/remit/r5.png?height=400&width=600&text=Login+and+Security",
@@ -92,45 +111,12 @@ export default function Projects() {
     "/remit/r7.png?height=400&width=600&text=Login+and+Security",
     "/remit/r8.png?height=400&width=600&text=Login+and+Security",
     "/remit/r9.png?height=400&width=600&text=Login+and+Security",
-    "/remit/r10.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r10.png?height=400&width=600&text=Transaction+History",
+    "/remit/r1.png?height=400&width=600&text=Login+and+Security",
   ],
-  github: "https://github.com/dawit/remittance-app", // Replace with actual repo if different
+  github: "https://github.com/Abol-Technologies/abolremitapi", // Replace with actual repo if different
   category: "fullstack",
 },
-    // {
-    //   id: 5,
-    //   title: "REST API Server",
-    //   description: "Scalable REST API with comprehensive documentation",
-    //   longDescription:
-    //     "A scalable REST API server built with Node.js and Express, featuring comprehensive CRUD operations, authentication middleware, input validation, error handling, and automated API documentation with Swagger. Includes rate limiting and security best practices.",
-    //   tech: ["Node.js", "Express", "MongoDB", "Swagger", "Jest"],
-    //   images: [
-    //     "/placeholder.svg?height=400&width=600&text=API+Documentation",
-    //     "/placeholder.svg?height=400&width=600&text=Endpoint+Testing",
-    //     "/placeholder.svg?height=400&width=600&text=Authentication+Flow",
-    //     "/placeholder.svg?height=400&width=600&text=Error+Handling",
-    //   ],
-    //   github: "https://github.com/dawit/rest-api",
-    //   live: "https://api-docs-demo.com",
-    //   category: "backend",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Portfolio Website",
-    //   description: "Responsive portfolio with modern animations",
-    //   longDescription:
-    //     "A modern, responsive portfolio website built with Next.js and Tailwind CSS. Features smooth animations, dark theme, project galleries, contact forms, and optimized performance. The site includes SEO optimization and accessibility features.",
-    //   tech: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-    //   images: [
-    //     "/placeholder.svg?height=400&width=600&text=Portfolio+Home",
-    //     "/placeholder.svg?height=400&width=600&text=Project+Gallery",
-    //     "/placeholder.svg?height=400&width=600&text=About+Section",
-    //     "/placeholder.svg?height=400&width=600&text=Contact+Form",
-    //   ],
-    //   github: "https://github.com/dawit/portfolio",
-    //   live: "https://dawit-portfolio.vercel.app",
-    //   category: "frontend",
-    // },
   ]
 
   const categories = [
