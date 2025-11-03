@@ -5,7 +5,7 @@ import Image from "next/image"
 import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
-  const technologies = ["React", "Node.js", "Laravel", "Spring Boot", "Next.js", "Tailwind", "Java", "Git"]
+  const technologies = ["Spring Boot","Maven","Spring Security", "Spring Data JPA", "Hibernate ORM", "Git","Docker","CI/CD Pipelines"]
 
   const handleDownloadResume = () => {
     // Add your resume download logic here
@@ -33,11 +33,7 @@ export default function Hero() {
                   sequence={[
                     "Software Engineer",
                     2000,
-                    "Full Stack Developer",
-                    2000,
-                    "Laravel Developer",
-                    2000,
-                    "React Developer",
+                    "Backend Engineer",
                     2000,
                   ]}
                   wrapper="h3"
@@ -91,7 +87,7 @@ export default function Hero() {
 
         {/* Technology Stack */}
         <div className="mt-16 animate-in slide-in-from-bottom duration-1000 delay-500">
-          <h4 className="text-center text-slate-400 mb-8">Technologies I work with</h4>
+          <h4 className="text-center text-slate-400 mb-8">Skills</h4>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
             {technologies.map((tech, index) => (
               <div

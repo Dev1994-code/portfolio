@@ -31,72 +31,18 @@ export default function Projects() {
   "longDescription": "An advanced NahuPay merchant platform built with React and Spring Boot, offering seamless transaction management, payment processing, and real-time financial tracking. Key features include merchant authentication, multi-bank API integrations, wallet service support, and a comprehensive dashboard for monitoring sales and payouts. Designed with robust security measures and an intuitive interface, it empowers merchants to optimize their business operations with ease.",
   "tech": ["React", "Spring Boot", "MySQL", "Twilio", "JWT", "Postman"],
   "images": [
-    "/merchant/m1.png?height=100&width=200&text=Church+Donation+Home",
-    "/merchant/m2.png?height=100&width=200&text=Donation+Tracker",
-    "/merchant/m3.png?height=100&width=200&text=Donor+Management",
-    "/merchant/m4.png?height=100&width=00&text=Admin+Dashboard",
-    "/merchant/m5.png?height=100&width=00&text=Admin+Dashboard",
-    "/merchant/m6.png?height=100&width=00&text=Admin+Dashboard",
-    "/merchant/m7.png?height=100&width=00&text=Admin+Dashboard",
-    "/merchant/m8.png?height=100&width=00&text=Admin+Dashboard",
+    "/merchant/N1.png?height=100&width=200&text=Church+Donation+Home",
+    "/merchant/N2.png?height=100&width=200&text=Donation+Tracker",
+    "/merchant/N3.png?height=100&width=200&text=Donor+Management",
+    "/merchant/N4.png?height=100&width=00&text=Admin+Dashboard",
+    "/merchant/N5.png?height=100&width=00&text=Admin+Dashboard",
   ],
   "github": "https://github.com/nahusystems/nahupay_fpa",
   "category": "fullstack"
 },
-{
-  "id": 2,
-  "title": "Church Donation Platform",
-  "description": "A secure and user-friendly platform for church donations with payment integration",
-  "longDescription": "A robust church donation platform developed using React and Node.js, designed to streamline contributions with features like user authentication, donation tracking, payment processing via Stripe, donor management, and an admin dashboard. The system ensures secure transactions, provides real-time donation updates, and sends confirmation emails to donors, fostering transparency and engagement within the church community.",
-  "tech": ["Flutter", "Spring-boot", "Mysql", "Nahu Pay", "JWT"],
-  "images": [
-    "/donation/d1.png?height=100&width=200&text=Church+Donation+Home",
-    "/donation/d2.png?height=100&width=200&text=Donation+Tracker",
-    "/donation/d3.png?height=100&width=200&text=Donor+Management",
-    "/donation/d4.png?height=100&width=00&text=Admin+Dashboard",
-    "/donation/d5.png?height=100&width=00&text=Admin+Dashboard",
-    "/donation/d6.png?height=100&width=00&text=Admin+Dashboard",
-    "/donation/d7.png?height=100&width=00&text=Admin+Dashboard",
-  ],
-  "github": "https://github.com/nahusystems/eotc_donation_mobile",
-  "category": "fullstack"
-},
 
-    {
-  id: 3,
-  title: "Spare Part Selling App",
-  description: "E-commerce platform for automotive spare parts",
-  longDescription:
-    "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
-  tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
-  images: [
-    "/spare/s1.png?height=400&width=600&text=Product+Listing",
-    "/spare/s2.png?height=400&width=600&text=Product+Detail",
-    "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
-  ],
-  github: "https://github.com/Dev1994-code",
-  category: "backend",
-},
-    {
-  id: 4,
-  title: "Nahu Payment Processor Documentation",
-  description: "Comprehensive developer documentation and SDKs for Nahu Payment",
-  longDescription:
-    "A complete documentation portal for the Nahu Payment Processor, designed to help developers easily integrate secure payment services into their applications. The documentation includes API references, authentication guides, request/response samples, error handling details, and SDKs for multiple languages. It also provides a testing sandbox, Postman collections, and quick-start tutorials for common use cases like mobile, web, and backend integrations.",
-  tech: ["Markdown", "Docusaurus","GitHub"],
-  images: [
-    "/documentation/d1.png?height=400&width=600&text=API+Docs+Overview",
-    "/documentation/d2.png?height=400&width=600&text=Authentication+Guide",
-    "/documentation/d3.png?height=400&width=600&text=SDKs+and+Examples",
-    "/documentation/d4.png?height=400&width=600&text=Integration+Tutorials",
-    "/documentation/d5.png?height=400&width=600&text=Integration+Tutorials",
-    "/documentation/d6.png?height=400&width=600&text=Integration+Tutorials",
-  ],
-  github: "https://github.com/Dev1994-code",
-  category: "documentation",
-},
-    {
-  id: 5,
+{
+  id: 2,
   title: "Remittance App",
   description: "Cross-platform remittance solution with secure transfers",
   longDescription:
@@ -115,7 +61,59 @@ export default function Projects() {
     "/remit/r1.png?height=400&width=600&text=Login+and+Security",
   ],
   github: "https://github.com/Abol-Technologies/abolremitapi", // Replace with actual repo if different
-  category: "fullstack",
+  category: "backend",
+},
+{
+  "id": 3,
+  "title": "Church Donation Platform",
+  "description": "A secure and user-friendly platform for church donations with payment integration",
+  "longDescription": "A robust church donation platform developed using React and Node.js, designed to streamline contributions with features like user authentication, donation tracking, payment processing via Stripe, donor management, and an admin dashboard. The system ensures secure transactions, provides real-time donation updates, and sends confirmation emails to donors, fostering transparency and engagement within the church community.",
+  "tech": ["Flutter", "Spring-boot", "Mysql", "Nahu Pay", "JWT"],
+  "images": [
+    "/donation/d1.png?height=100&width=200&text=Church+Donation+Home",
+    "/donation/d2.png?height=100&width=200&text=Donation+Tracker",
+    "/donation/d3.png?height=100&width=200&text=Donor+Management",
+    "/donation/d4.png?height=100&width=00&text=Admin+Dashboard",
+    "/donation/d5.png?height=100&width=00&text=Admin+Dashboard",
+    "/donation/d6.png?height=100&width=00&text=Admin+Dashboard",
+    "/donation/d7.png?height=100&width=00&text=Admin+Dashboard",
+  ],
+  "github": "https://github.com/nahusystems/eotc_donation_mobile",
+  "category": "backend"
+},
+
+//     {
+//   id: 4,
+//   title: "Spare Part Selling App",
+//   description: "E-commerce platform for automotive spare parts",
+//   longDescription:
+//     "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
+//   tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
+//   images: [
+//     "/spare/s1.png?height=400&width=600&text=Product+Listing",
+//     "/spare/s2.png?height=400&width=600&text=Product+Detail",
+//     "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
+//   ],
+//   github: "https://github.com/Dev1994-code",
+//   category: "backend",
+// },
+    {
+  id: 5,
+  title: "Nahu Payment Processor Documentation",
+  description: "Comprehensive developer documentation and SDKs for Nahu Payment",
+  longDescription:
+    "A complete documentation portal for the Nahu Payment Processor, designed to help developers easily integrate secure payment services into their applications. The documentation includes API references, authentication guides, request/response samples, error handling details, and SDKs for multiple languages. It also provides a testing sandbox, Postman collections, and quick-start tutorials for common use cases like mobile, web, and backend integrations.",
+  tech: ["Markdown", "Docusaurus","GitHub"],
+  images: [
+    "/documentation/d1.png?height=400&width=600&text=API+Docs+Overview",
+    "/documentation/d2.png?height=400&width=600&text=Authentication+Guide",
+    "/documentation/d3.png?height=400&width=600&text=SDKs+and+Examples",
+    "/documentation/d4.png?height=400&width=600&text=Integration+Tutorials",
+    "/documentation/d5.png?height=400&width=600&text=Integration+Tutorials",
+    "/documentation/d6.png?height=400&width=600&text=Integration+Tutorials",
+  ],
+  github: "https://github.com/Dev1994-code",
+  category: "documentation",
 },
   ]
 

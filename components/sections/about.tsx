@@ -4,16 +4,16 @@ import { Code, Smartphone, Server, Database, Cloud, Zap } from "lucide-react"
 
 export default function About() {
   const services = [
-    {
-      icon: <Code className="w-8 h-8" />,
-      title: "Frontend Development",
-      description:
-        "Building responsive and interactive user interfaces with React, Next.js, and modern JavaScript frameworks",
-    },
+    // {
+    //   icon: <Code className="w-8 h-8" />,
+    //   title: "Frontend Development",
+    //   description:
+    //     "Building responsive and interactive user interfaces with and modern JavaScript frameworks",
+    // },
     {
       icon: <Server className="w-8 h-8" />,
       title: "Backend Development",
-      description: "Creating robust server-side applications with Node.js, Laravel, Spring Boot, and RESTful APIs",
+      description: "Creating robust server-side applications with Spring Boot, and RESTful APIs",
     },
     {
       icon: <Database className="w-8 h-8" />,
@@ -70,18 +70,13 @@ export default function About() {
             <h2 className="text-4xl font-bold">About me</h2>
             <div className="space-y-4 text-slate-300 leading-relaxed">
               <p>
-                I started my software development journey with a passion for creating digital solutions that make a
-                difference. With over 2 years of experience, I've worked on diverse projects ranging from E-commerce
-                platforms to enterprise applications.
+                I embarked on my software development journey fueled by a passion for crafting robust backend systems that power seamless fintech experiences. With hands-on expertise in Java and Spring Boot, I've built secure, scalable solutions for payment and remittance platforms, transforming how users interact with digital finance.
               </p>
               <p>
-                My expertise spans across modern web technologies including React, Node.js, Next.js, Laravel, Spring Boot and Tailwind. I
-                believe in writing clean, maintainable code and following best practices to deliver high-quality
-                solutions.
+                My work includes architecting RESTful APIs for Lucy Remit, integrating Cybersource payments via Abisinya Bank with webhooks and callbacks for instant notifications, and contributing to NahuPay—a payment processor enabling fluid user-merchant transactions through microservices, JPA/Hibernate, and rigorous testing. I thrive on clean, maintainable code and best practices to ensure reliability at scale.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or
-                sharing knowledge with the developer community.
+                Outside of coding, I dive into emerging technologies, tinker with Docker deployments, or connect with fellow developers to spark innovation in Ethiopia's growing tech scene.
               </p>
             </div>
 
