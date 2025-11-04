@@ -18,7 +18,7 @@ export default function About() {
     {
       icon: <Database className="w-8 h-8" />,
       title: "Database Design",
-      description: "Designing and optimizing databases with MySQL, PostgreSQL, MongoDB for scalable applications",
+      description: "Building and improving databases with MySQL, PostgreSQL, and MongoDB to support scalable apps.",
     },
     {
       icon: <Cloud className="w-8 h-8" />,
