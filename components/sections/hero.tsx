@@ -44,8 +44,8 @@ export default function Hero() {
             </div>
 
             <p className="text-slate-300 text-lg leading-relaxed max-w-lg">
-              Passionate about creating scalable web applications and solving complex problems with modern technologies.
-              Let's build something amazing together!
+              Excited about building scalable web apps and solving tough problems using modern tech.
+Let’s create something great together!
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
