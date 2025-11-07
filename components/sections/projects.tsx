@@ -24,12 +24,27 @@ export default function Projects() {
   const [filter, setFilter] = useState("all")
 
   const projects: Project[] = [
+        {
+  id: 1,
+  title: "Spare Part Selling App",
+  description: "E-commerce platform for automotive spare parts",
+  longDescription:
+    "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
+  tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
+  images: [
+    "/spare/s1.png?height=400&width=600&text=Product+Listing",
+    "/spare/s2.png?height=400&width=600&text=Product+Detail",
+    "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
+  ],
+  github: "https://github.com/Dev1994-code",
+  category: "backend",
+},
     {
-  "id": 1,
+  "id": 2,
   "title": "NahuPay Merchant Platform",
   "description": "A powerful and secure platform for merchants to manage transactions and payments efficiently",
-  "longDescription": "An advanced NahuPay merchant platform built with React and Spring Boot, offering seamless transaction management, payment processing, and real-time financial tracking. Key features include merchant authentication, multi-bank API integrations, wallet service support, and a comprehensive dashboard for monitoring sales and payouts. Designed with robust security measures and an intuitive interface, it empowers merchants to optimize their business operations with ease.",
-  "tech": ["React", "Spring Boot", "MySQL", "Twilio", "JWT", "Postman"],
+  "longDescription": "An advanced NahuPay merchant platform built with React, offering seamless transaction management, payment processing, and real-time financial tracking. Key features include merchant authentication, multi-bank API integrations, wallet service support, and a comprehensive dashboard for monitoring sales and payouts. Designed with robust security measures and an intuitive interface, it empowers merchants to optimize their business operations with ease.",
+  "tech": ["React", "MySQL", "Twilio", "JWT", "Postman"],
   "images": [
     "/merchant/N1.png?height=100&width=200&text=Church+Donation+Home",
     "/merchant/N2.png?height=100&width=200&text=Donation+Tracker",
@@ -38,67 +53,53 @@ export default function Projects() {
     "/merchant/N5.png?height=100&width=00&text=Admin+Dashboard",
   ],
   "github": "https://github.com/nahusystems/nahupay_fpa",
-  "category": "fullstack"
+  "category": "frontend"
 },
 
-{
-  id: 2,
-  title: "Remittance App",
-  description: "Cross-platform remittance solution with secure transfers",
-  longDescription:
-    "A full-featured cross-platform remittance application built using Flutter for the frontend and Spring Boot for the backend. The app enables users to send and receive money securely, manage transactions, and view real-time transfer statuses. Features include user authentication, multi-currency support, transaction history, and integration with secure payment gateways.",
-  tech: ["Flutter", "Dart", "Spring Boot", "Java", "MySQL", "REST API"],
-  images: [
-    "/remit/r2.png?height=400&width=600&text=Send+Money+Screen",
-    "/remit/r3.png?height=400&width=600&text=User+Dashboard",
-    "/remit/r4.png?height=400&width=600&text=Login+and+Security",
-    "/remit/r5.png?height=400&width=600&text=Login+and+Security",
-    "/remit/r6.png?height=400&width=600&text=Login+and+Security",
-    "/remit/r7.png?height=400&width=600&text=Login+and+Security",
-    "/remit/r8.png?height=400&width=600&text=Login+and+Security",
-    "/remit/r9.png?height=400&width=600&text=Login+and+Security",
-    "/remit/r10.png?height=400&width=600&text=Transaction+History",
-    "/remit/r1.png?height=400&width=600&text=Login+and+Security",
-  ],
-  github: "https://github.com/Abol-Technologies/abolremitapi", // Replace with actual repo if different
-  category: "backend",
-},
-{
-  "id": 3,
-  "title": "Church Donation Platform",
-  "description": "A secure and user-friendly platform for church donations with payment integration",
-  "longDescription": "A robust church donation platform developed using React and Node.js, designed to streamline contributions with features like user authentication, donation tracking, payment processing via Stripe, donor management, and an admin dashboard. The system ensures secure transactions, provides real-time donation updates, and sends confirmation emails to donors, fostering transparency and engagement within the church community.",
-  "tech": ["Flutter", "Spring-boot", "Mysql", "Nahu Pay", "JWT"],
-  "images": [
-    "/donation/d1.png?height=100&width=200&text=Church+Donation+Home",
-    "/donation/d2.png?height=100&width=200&text=Donation+Tracker",
-    "/donation/d3.png?height=100&width=200&text=Donor+Management",
-    "/donation/d4.png?height=100&width=00&text=Admin+Dashboard",
-    "/donation/d5.png?height=100&width=00&text=Admin+Dashboard",
-    "/donation/d6.png?height=100&width=00&text=Admin+Dashboard",
-    "/donation/d7.png?height=100&width=00&text=Admin+Dashboard",
-  ],
-  "github": "https://github.com/nahusystems/eotc_donation_mobile",
-  "category": "backend"
-},
-
-//     {
-//   id: 4,
-//   title: "Spare Part Selling App",
-//   description: "E-commerce platform for automotive spare parts",
+// {
+//   id: 2,
+//   title: "Remittance App",
+//   description: "Cross-platform remittance solution with secure transfers",
 //   longDescription:
-//     "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
-//   tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
+//     "A full-featured cross-platform remittance application built using Flutter for the frontend and Spring Boot for the backend. The app enables users to send and receive money securely, manage transactions, and view real-time transfer statuses. Features include user authentication, multi-currency support, transaction history, and integration with secure payment gateways.",
+//   tech: ["Flutter", "Dart", "Spring Boot", "Java", "MySQL", "REST API"],
 //   images: [
-//     "/spare/s1.png?height=400&width=600&text=Product+Listing",
-//     "/spare/s2.png?height=400&width=600&text=Product+Detail",
-//     "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
+//     "/remit/r2.png?height=400&width=600&text=Send+Money+Screen",
+//     "/remit/r3.png?height=400&width=600&text=User+Dashboard",
+//     "/remit/r4.png?height=400&width=600&text=Login+and+Security",
+//     "/remit/r5.png?height=400&width=600&text=Login+and+Security",
+//     "/remit/r6.png?height=400&width=600&text=Login+and+Security",
+//     "/remit/r7.png?height=400&width=600&text=Login+and+Security",
+//     "/remit/r8.png?height=400&width=600&text=Login+and+Security",
+//     "/remit/r9.png?height=400&width=600&text=Login+and+Security",
+//     "/remit/r10.png?height=400&width=600&text=Transaction+History",
+//     "/remit/r1.png?height=400&width=600&text=Login+and+Security",
 //   ],
-//   github: "https://github.com/Dev1994-code",
+//   github: "https://github.com/Abol-Technologies/abolremitapi", // Replace with actual repo if different
 //   category: "backend",
 // },
+// {
+//   "id": 3,
+//   "title": "Church Donation Platform",
+//   "description": "A secure and user-friendly platform for church donations with payment integration",
+//   "longDescription": "A robust church donation platform developed using React and Node.js, designed to streamline contributions with features like user authentication, donation tracking, payment processing via Stripe, donor management, and an admin dashboard. The system ensures secure transactions, provides real-time donation updates, and sends confirmation emails to donors, fostering transparency and engagement within the church community.",
+//   "tech": ["Flutter", "Spring-boot", "Mysql", "Nahu Pay", "JWT"],
+//   "images": [
+//     "/donation/d1.png?height=100&width=200&text=Church+Donation+Home",
+//     "/donation/d2.png?height=100&width=200&text=Donation+Tracker",
+//     "/donation/d3.png?height=100&width=200&text=Donor+Management",
+//     "/donation/d4.png?height=100&width=00&text=Admin+Dashboard",
+//     "/donation/d5.png?height=100&width=00&text=Admin+Dashboard",
+//     "/donation/d6.png?height=100&width=00&text=Admin+Dashboard",
+//     "/donation/d7.png?height=100&width=00&text=Admin+Dashboard",
+//   ],
+//   "github": "https://github.com/nahusystems/eotc_donation_mobile",
+//   "category": "backend"
+// },
+
+
     {
-  id: 5,
+  id: 3,
   title: "Nahu Payment Processor Documentation",
   description: "Comprehensive developer documentation and SDKs for Nahu Payment",
   longDescription:

@@ -5,7 +5,7 @@ import Image from "next/image"
 import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
-  const technologies = ["Spring Boot","Maven","Spring Security", "Spring Data JPA", "Hibernate ORM", "Git","Docker","CI/CD Pipelines"]
+  const technologies = ["Laravel","React","Javascript", "Typescript", "Tailwindcss", "Git","Docker","CI/CD Pipelines"]
 
   const handleDownloadResume = () => {
     // Add your resume download logic here
@@ -33,7 +33,7 @@ export default function Hero() {
                   sequence={[
                     "Software Engineer",
                     2000,
-                    "Backend Engineer",
+                    "Full Stack Developer",
                     2000,
                   ]}
                   wrapper="h3"
@@ -55,13 +55,7 @@ Let’s create something great together!
               >
                 Got a project?
               </Button>
-              <Button
-                variant="outline"
-                className="border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white px-8 py-3 transform hover:scale-105 transition-all duration-300 rounded-xl"
-                onClick={handleDownloadResume}
-              >
-                My resume
-              </Button>
+              
             </div>
           </div>
 
