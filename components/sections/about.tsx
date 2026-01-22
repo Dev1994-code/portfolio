@@ -13,7 +13,7 @@ export default function About() {
     {
       icon: <Server className="w-8 h-8" />,
       title: "Backend Development",
-      description: "Creating robust server-side applications with Laravel, and RESTful APIs",
+      description: "Creating robust server-side applications with Laravel, Node.js, Spring-Boot and RESTful APIs",
     },
     {
       icon: <Database className="w-8 h-8" />,
@@ -30,7 +30,7 @@ export default function About() {
   const stats = [
     { number: "10+", label: "Completed Projects", icon: <Zap className="w-6 h-6" /> },
     { number: "98%", label: "Client Satisfaction", icon: <Smartphone className="w-6 h-6" /> },
-    { number: "2+", label: "Years Experience", icon: <Code className="w-6 h-6" /> },
+    { number: "1+", label: "Years Experience", icon: <Code className="w-6 h-6" /> },
   ]
 
   return (
@@ -73,7 +73,7 @@ export default function About() {
       I embarked on my software development journey driven by a passion for building scalable and efficient web applications that blend strong backend logic with smooth user experiences. Specializing in Laravel and React, I enjoy creating dynamic full-stack solutions that bring ideas to life.
     </p>
     <p>
-      My experience includes developing end-to-end ecommerce platforms like <strong>meriSparePart</strong>—a Telebirr-integrated marketplace with RESTful APIs and secure payment flows—and working on robust student management systems that handle user profiles, image uploads, and role-based access seamlessly. I focus on clean architecture, reusable components, and maintainable code to deliver performance and reliability.
+      My experience includes developing end-to-end e-commerce platforms like meriSparePart—a Telebirr-integrated marketplace with RESTful APIs—and financial software such as Lucy Remit, featuring secure transaction processing and user authentication for high-volume remittances in Ethiopia.
     </p>
     <p>
       Beyond coding, I love exploring new frameworks, optimizing Docker-based deployments, and collaborating with other developers to push forward Ethiopia’s growing tech ecosystem.
