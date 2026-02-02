@@ -4,12 +4,12 @@ import { Code, Smartphone, Server, Database, Cloud, Zap } from "lucide-react"
 
 export default function About() {
   const services = [
-    {
-      icon: <Code className="w-8 h-8" />,
-      title: "Frontend Development",
-      description:
-        "Building responsive and interactive user interfaces with and modern JavaScript frameworks",
-    },
+    // {
+    //   icon: <Code className="w-8 h-8" />,
+    //   title: "Frontend Development",
+    //   description:
+    //     "Building responsive and interactive user interfaces with and modern JavaScript frameworks",
+    // },
     {
       icon: <Server className="w-8 h-8" />,
       title: "Backend Development",
@@ -70,10 +70,10 @@ export default function About() {
   <h2 className="text-4xl font-bold">About Me</h2>
   <div className="space-y-4 text-slate-300 leading-relaxed">
     <p>
-      I embarked on my software development journey driven by a passion for building scalable and efficient web applications that blend strong backend logic with smooth user experiences. Specializing in Laravel and React, I enjoy creating dynamic full-stack solutions that bring ideas to life.
+      I am a dedicated Backend Engineer passionate about architecting scalable, secure, and high-performance systems that power real-world financial and payment solutions. With deep expertise in Java and Spring Boot, I focus on designing robust backend logic, RESTful APIs, microservices, and seamless third-party integrations to deliver reliable and efficient applications.
     </p>
     <p>
-      My experience includes developing end-to-end e-commerce platforms like meriSparePart—a Telebirr-integrated marketplace with RESTful APIs—and financial software such as Lucy Remit, featuring secure transaction processing and user authentication for high-volume remittances in Ethiopia.
+      My key contributions include building critical backend services for NahuPay, a modern payment processing platform in Ethiopia — encompassing merchant platforms, checkout flows, API documentation, and SDKs that enable smooth user-to-merchant transactions. I also played a major role in Lucy Remit, a high-volume remittance application, where I implemented secure Cybersource payment gateway integration via Bank of Abyssinia APIs, along with real-time webhook and callback mechanisms for instant transaction notifications.
     </p>
     <p>
       Beyond coding, I love exploring new frameworks, optimizing Docker-based deployments, and collaborating with other developers to push forward Ethiopia’s growing tech ecosystem.

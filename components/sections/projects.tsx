@@ -24,23 +24,23 @@ export default function Projects() {
   const [filter, setFilter] = useState("all")
 
   const projects: Project[] = [
-        {
-  id: 1,
-  title: "Spare Part Selling App",
-  description: "E-commerce platform for automotive spare parts",
-  longDescription:
-    "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
-  tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
-  images: [
-    "/spare/s1.png?height=400&width=600&text=Product+Listing",
-    "/spare/s2.png?height=400&width=600&text=Product+Detail",
-    "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
-  ],
-  github: "https://github.com/Dev1994-code",
-  category: "backend",
-},
+//         {
+//   id: 1,
+//   title: "Spare Part Selling App",
+//   description: "E-commerce platform for automotive spare parts",
+//   longDescription:
+//     "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
+//   tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
+//   images: [
+//     "/spare/s1.png?height=400&width=600&text=Product+Listing",
+//     "/spare/s2.png?height=400&width=600&text=Product+Detail",
+//     "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
+//   ],
+//   github: "https://github.com/Dev1994-code",
+//   category: "backend",
+// },
     {
-  "id": 2,
+  "id": 1,
   "title": "NahuPay Merchant Platform",
   "description": "A powerful and secure platform for merchants to manage transactions and payments efficiently",
   "longDescription": "An advanced NahuPay merchant platform built with React, offering seamless transaction management, payment processing, and real-time financial tracking. Key features include merchant authentication, multi-bank API integrations, wallet service support, and a comprehensive dashboard for monitoring sales and payouts. Designed with robust security measures and an intuitive interface, it empowers merchants to optimize their business operations with ease.",
@@ -57,7 +57,7 @@ export default function Projects() {
 },
 
 {
-  id: 3,
+  id: 2,
   title: "Remittance App",
   description: "Cross-platform remittance solution with secure transfers",
   longDescription:
@@ -79,7 +79,7 @@ export default function Projects() {
   category: "backend",
 },
 {
-  "id": 4,
+  "id": 3,
   "title": "Church Donation Platform",
   "description": "A secure and user-friendly platform for church donations with payment integration",
   "longDescription": "A robust church donation platform developed using React and Node.js, designed to streamline contributions with features like user authentication, donation tracking, payment processing via Stripe, donor management, and an admin dashboard. The system ensures secure transactions, provides real-time donation updates, and sends confirmation emails to donors, fostering transparency and engagement within the church community.",
@@ -99,7 +99,7 @@ export default function Projects() {
 
 
     {
-  id: 5,
+  id: 4,
   title: "Nahu Payment Processor Documentation",
   description: "Comprehensive developer documentation and SDKs for Nahu Payment",
   longDescription:

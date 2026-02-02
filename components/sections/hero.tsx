@@ -5,7 +5,7 @@ import Image from "next/image"
 import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
-  const technologies = ["Laravel/PHP","Node.js","Javascript", "React/Typescript", "Tailwindcss", "Git","Docker","CI/CD Pipelines"]
+  const technologies = ["Spring Boot","Java","Maven", "Spring MVC", "PostgreSQL", "MySQL", "Git","Docker","CI/CD Pipelines"]
 
   const handleDownloadResume = () => {
     // Add your resume download logic here
