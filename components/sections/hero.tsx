@@ -5,7 +5,18 @@ import Image from "next/image"
 import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
-  const technologies = ["Spring Boot","Java","Maven", "Spring MVC", "PostgreSQL", "MySQL", "Git","Docker","CI/CD Pipelines"]
+  const technologies = [
+  "HTML",
+  "CSS",
+  "jQuery",
+  "React",
+  "JavaScript",
+  "TypeScript",
+  "Next.js",
+  "Git",
+  "Docker",
+  "CI/CD Pipelines"
+];
 
   const handleDownloadResume = () => {
     // Add your resume download logic here
@@ -33,7 +44,7 @@ export default function Hero() {
                   sequence={[
                     "Software Engineer",
                     2000,
-                    "Full Stack Developer",
+                    "Frontend Developer",
                     2000,
                   ]}
                   wrapper="h3"
