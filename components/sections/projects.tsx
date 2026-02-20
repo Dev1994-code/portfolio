@@ -14,7 +14,7 @@ interface Project {
   longDescription: string
   tech: string[]
   images: string[]
-  github: string
+  // github: string
   category: string
 }
 
@@ -40,63 +40,76 @@ export default function Projects() {
 //   category: "backend",
 // },
 
-{
-  "id": 1,
-  "title": "AkuLearning AI Tutor Platform",
-  "description": "An innovative AI-powered tutor delivering personalized education with localized Ethiopian content in low-resource settings",
-  "longDescription": "AkuLearning is a modern frontend application built with React, JavaScript, and TypeScript, providing an engaging and accessible AI tutor experience. It leverages Retrieval-Augmented Generation (RAG) with Gemini LLMs to offer personalized learning, interactive lessons, progress tracking, and culturally relevant content in Amharic/English. The intuitive interface focuses on user-friendly design, clear navigation, responsive layouts, and seamless educational interactions to bridge learning gaps in underserved areas.",
-  "tech": ["React", "TypeScript", "JavaScript", "Next.js", "Gemini API", "RAG", "Tailwind CSS"],
-  "images": [
-    "/akulLearning/A1.jpg?height=100&width=200&text=AkuLearning+Home+Dashboard",
-    "/akulLearning/A2.jpg?height=100&width=200&text=Personalized+Lesson+Interface",
-    "/akulLearning/A3.jpg?height=100&width=200&text=Interactive+AI+Tutor+Chat",
-    "/akulLearning/A4.jpg?height=100&width=200&text=Progress+Tracking+Screen",
-    "/akulLearning/A5.jpg?height=100&width=200&text=Localized+Content+Viewer"
-  ],
-  "github": "https://github.com/yourusername/akullearning",  // ← replace with actual repo link if public/private
-  "category": "frontend"
-},
+// {
+//   "id": 1,
+//   "title": "AkuLearning AI Tutor Platform",
+//   "description": "An innovative AI-powered tutor delivering personalized education with localized Ethiopian content in low-resource settings",
+//   "longDescription": "AkuLearning is a modern frontend application built with React, JavaScript, and TypeScript, providing an engaging and accessible AI tutor experience. It leverages Retrieval-Augmented Generation (RAG) with Gemini LLMs to offer personalized learning, interactive lessons, progress tracking, and culturally relevant content in Amharic/English. The intuitive interface focuses on user-friendly design, clear navigation, responsive layouts, and seamless educational interactions to bridge learning gaps in underserved areas.",
+//   "tech": ["React", "TypeScript", "JavaScript", "Next.js", "Gemini API", "RAG", "Tailwind CSS"],
+//   "images": [
+//     "/akulLearning/A1.jpg?height=100&width=200&text=AkuLearning+Home+Dashboard",
+//     "/akulLearning/A2.jpg?height=100&width=200&text=Personalized+Lesson+Interface",
+//     "/akulLearning/A3.jpg?height=100&width=200&text=Interactive+AI+Tutor+Chat",
+//     "/akulLearning/A4.jpg?height=100&width=200&text=Progress+Tracking+Screen",
+//     "/akulLearning/A5.jpg?height=100&width=200&text=Localized+Content+Viewer"
+//   ],
+//   "github": "https://github.com/yourusername/akullearning",  // ← replace with actual repo link if public/private
+//   "category": "frontend"
+// },
     {
-  "id": 2,
-  "title": "NahuPay Merchant Platform",
-  "description": "A powerful and secure platform for merchants to manage transactions and payments efficiently",
-  "longDescription": "An advanced NahuPay merchant platform built with React, offering seamless transaction management, payment processing, and real-time financial tracking. Key features include merchant authentication, multi-bank API integrations, wallet service support, and a comprehensive dashboard for monitoring sales and payouts. Designed with robust security measures and an intuitive interface, it empowers merchants to optimize their business operations with ease.",
-  "tech": ["React", "MySQL", "Twilio", "JWT", "Postman"],
-  "images": [
+  id: 1,
+  title: "NahuPay Merchant Platform",
+  description: "A powerful and secure platform for merchants to manage transactions and payments efficiently",
+  longDescription: "An advanced NahuPay merchant platform built with React, offering seamless transaction management, payment processing, and real-time financial tracking. Key features include merchant authentication, multi-bank API integrations, wallet service support, and a comprehensive dashboard for monitoring sales and payouts. Designed with robust security measures and an intuitive interface, it empowers merchants to optimize their business operations with ease.",
+  tech: ["React","Spring Boot","Java","MySQL", "Twilio", "JWT", "Postman"],
+  images: [
     "/merchant/N1.png?height=100&width=200&text=Church+Donation+Home",
     "/merchant/N2.png?height=100&width=200&text=Donation+Tracker",
     "/merchant/N3.png?height=100&width=200&text=Donor+Management",
     "/merchant/N4.png?height=100&width=00&text=Admin+Dashboard",
     "/merchant/N5.png?height=100&width=00&text=Admin+Dashboard",
   ],
-  "github": "https://github.com/nahusystems/nahupay_fpa",
-  "category": "frontend"
+  // github: "https://github.com/nahusystems/nahupay_fpa",
+  category: "backend"
 },
 
+{
+  id: 2,
+  title: "NahuPay Checkout System",
+  description: "A secure and seamless checkout interface for processing mobile and bank payments in real-time.",
+  longDescription: "A modern NahuPay checkout system designed to provide fast, secure, and reliable payment processing for customers. Built with React and integrated with Spring Boot backend services, the system supports mobile wallets and bank transfers with multi-provider integrations such as CBE Birr and Telebirr. Key features include dynamic payment method selection, real-time transaction validation, secure JWT-based authentication, API-driven payment processing, and responsive UI design. The checkout ensures smooth user experience while maintaining high-level security standards and transaction integrity.",
+  tech: ["React", "Spring Boot", "Java", "MySQL", "JWT", "REST API", "Axios"],
+  images: [
+    "/checkout/ch1.png?height=100&width=200&text=Checkout+Home",
+    "/checkout/ch2.png?height=100&width=200&text=Mobile+Payment+Selection",
+    "/checkout/ch3.png?height=100&width=200&text=Bank+Transfer+Option",
+  ],
+  // github: "https://github.com/nahusystems/nahupay_fpa",
+  category: "fullstack"
+},
 
-
-// {
-//   id: 2,
-//   title: "Remittance App",
-//   description: "Cross-platform remittance solution with secure transfers",
-//   longDescription:
-//     "A full-featured cross-platform remittance application built using Flutter for the frontend and Spring Boot for the backend. The app enables users to send and receive money securely, manage transactions, and view real-time transfer statuses. Features include user authentication, multi-currency support, transaction history, and integration with secure payment gateways.",
-//   tech: ["Flutter", "Dart", "Spring Boot", "Java", "MySQL", "REST API"],
-//   images: [
-//     "/remit/r2.png?height=400&width=600&text=Send+Money+Screen",
-//     "/remit/r3.png?height=400&width=600&text=User+Dashboard",
-//     "/remit/r4.png?height=400&width=600&text=Login+and+Security",
-//     "/remit/r5.png?height=400&width=600&text=Login+and+Security",
-//     "/remit/r6.png?height=400&width=600&text=Login+and+Security",
-//     "/remit/r7.png?height=400&width=600&text=Login+and+Security",
-//     "/remit/r8.png?height=400&width=600&text=Login+and+Security",
-//     "/remit/r9.png?height=400&width=600&text=Login+and+Security",
-//     "/remit/r10.png?height=400&width=600&text=Transaction+History",
-//     "/remit/r1.png?height=400&width=600&text=Login+and+Security",
-//   ],
-//   github: "https://github.com/Abol-Technologies/abolremitapi", // Replace with actual repo if different
-//   category: "backend",
-// },
+{
+  id: 3,
+  title: "Remittance App",
+  description: "Cross-platform remittance solution with secure transfers",
+  longDescription:
+    "A full-featured cross-platform remittance application built using Flutter for the frontend and Spring Boot for the backend. The app enables users to send and receive money securely, manage transactions, and view real-time transfer statuses. Features include user authentication, multi-currency support, transaction history, and integration with secure payment gateways.",
+  tech: ["Flutter", "Dart", "Spring Boot", "Java", "MySQL", "REST API"],
+  images: [
+    "/remit/r2.png?height=400&width=600&text=Send+Money+Screen",
+    "/remit/r3.png?height=400&width=600&text=User+Dashboard",
+    "/remit/r4.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r5.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r6.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r7.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r8.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r9.png?height=400&width=600&text=Login+and+Security",
+    "/remit/r10.png?height=400&width=600&text=Transaction+History",
+    "/remit/r1.png?height=400&width=600&text=Login+and+Security",
+  ],
+  // github: "https://github.com/Abol-Technologies/abolremitapi", // Replace with actual repo if different
+  category: "backend",
+},
 // {
 //   "id": 3,
 //   "title": "Church Donation Platform",
@@ -132,7 +145,7 @@ export default function Projects() {
     "/documentation/d5.png?height=400&width=600&text=Integration+Tutorials",
     "/documentation/d6.png?height=400&width=600&text=Integration+Tutorials",
   ],
-  github: "https://github.com/Dev1994-code",
+  // github: "https://github.com/Dev1994-code",
   category: "documentation",
 },
   ]

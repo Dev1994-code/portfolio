@@ -10,29 +10,29 @@ export default function About() {
     //   description:
     //     "Building responsive and interactive user interfaces with and modern JavaScript frameworks",
     // },
-    // {
-    //   icon: <Server className="w-8 h-8" />,
-    //   title: "Backend Development",
-    //   description: "Creating robust server-side applications with Laravel, Node.js, Spring-Boot and RESTful APIs",
-    // },
-
     {
-    icon: <Code className="w-8 h-8" />,
-    title: "Frontend & Web Development",
-    description:
-      "Creating visually appealing, responsive, and user-friendly websites & apps using React, Next.js, TypeScript, JavaScript, HTML, CSS, and jQuery — with focus on intuitive UI, clear navigation, and cross-browser compatibility.",
-  },
-  {
-    icon: <Layout className="w-8 h-8" />, // Assuming you have a Layout/Grid icon; or reuse Code/Server if not
-    title: "UI/UX & Responsive Design",
-    description:
-      "Designing modern, accessible interfaces and layouts that prioritize excellent user experience, mobile-first responsiveness, and pixel-perfect visual appeal according to client specifications.",
-  },
-    // {
-    //   icon: <Database className="w-8 h-8" />,
-    //   title: "Database Design",
-    //   description: "Building and improving databases with MySQL, PostgreSQL, and MongoDB to support scalable apps.",
-    // },
+      icon: <Server className="w-8 h-8" />,
+      title: "Backend Development",
+      description: "Creating robust server-side applications with Spring-Boot and RESTful APIs",
+    },
+
+  //   {
+  //   icon: <Code className="w-8 h-8" />,
+  //   title: "Frontend & Web Development",
+  //   description:
+  //     "Creating visually appealing, responsive, and user-friendly websites & apps using React, Next.js, TypeScript, JavaScript, HTML, CSS, and jQuery — with focus on intuitive UI, clear navigation, and cross-browser compatibility.",
+  // },
+  // {
+  //   icon: <Layout className="w-8 h-8" />, // Assuming you have a Layout/Grid icon; or reuse Code/Server if not
+  //   title: "UI/UX & Responsive Design",
+  //   description:
+  //     "Designing modern, accessible interfaces and layouts that prioritize excellent user experience, mobile-first responsiveness, and pixel-perfect visual appeal according to client specifications.",
+  // },
+    {
+      icon: <Database className="w-8 h-8" />,
+      title: "Database Design",
+      description: "Building and improving databases with MySQL, PostgreSQL, and MongoDB to support scalable apps.",
+    },
     {
       icon: <Cloud className="w-8 h-8" />,
       title: "Cloud Deployment",
@@ -80,7 +80,7 @@ export default function About() {
 
           {/* About Content */}
 <div className="space-y-8 animate-in slide-in-from-right duration-700">
-  {/* <h2 className="text-4xl font-bold">About Me</h2>
+  <h2 className="text-4xl font-bold">About Me</h2>
   <div className="space-y-4 text-slate-300 leading-relaxed">
     <p>
       I am a dedicated Backend Engineer passionate about architecting scalable, secure, and high-performance systems that power real-world financial and payment solutions. With deep expertise in Java and Spring Boot, I focus on designing robust backend logic, RESTful APIs, microservices, and seamless third-party integrations to deliver reliable and efficient applications.
@@ -91,10 +91,10 @@ export default function About() {
     <p>
       Beyond coding, I love exploring new frameworks, optimizing Docker-based deployments, and collaborating with other developers to push forward Ethiopia’s growing tech ecosystem.
     </p>
-  </div> */}
+  </div>
 
 
-  <h2 className="text-4xl font-bold">About Me</h2>
+  {/* <h2 className="text-4xl font-bold">About Me</h2>
 <div className="space-y-4 text-slate-300 leading-relaxed">
   <p>
     I am a passionate Software Engineer specializing in frontend web development, with strong expertise in React, JavaScript, TypeScript, HTML, CSS, jQuery, and Next.js. I enjoy building visually appealing, user-friendly websites and applications that feature intuitive navigation, responsive design, and excellent cross-browser compatibility.
@@ -105,7 +105,7 @@ export default function About() {
   <p>
     I thrive in fast-paced environments, love exploring modern web technologies, optimizing user experiences, and contributing to Ethiopia’s growing tech scene through clean code and teamwork.
   </p>
-</div>
+</div> */}
 
             {/* Stats */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">

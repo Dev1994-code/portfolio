@@ -6,13 +6,14 @@ import { TypeAnimation } from "react-type-animation"
 
 export default function Hero() {
   const technologies = [
-  "HTML",
-  "CSS",
-  "jQuery",
-  "React",
-  "JavaScript",
-  "TypeScript",
-  "Next.js",
+  "Java",
+  "Spring Boot",
+  "Spring MVC architecture",
+  "Spring Security",
+  "JWT Authentication",
+  "Role-based authorization",
+  "Swagger API documentation",
+  "Flyway",
   "Git",
   "Docker",
   "CI/CD Pipelines"
@@ -44,7 +45,7 @@ export default function Hero() {
                   sequence={[
                     "Software Engineer",
                     2000,
-                    "Frontend Developer",
+                    "Backend Developer",
                     2000,
                   ]}
                   wrapper="h3"
@@ -72,10 +73,10 @@ Let’s create something great together!
 
           <div className="flex justify-center lg:justify-end animate-in slide-in-from-right duration-1000">
             <div className="relative group">
-              <div className="w-80 h-80 rounded-full bg-gradient-to-br from-orange-400 to-red-500 p-2 group-hover:scale-105 transition-transform duration-300">
+              <div className="w-84 h-84 rounded-full bg-gradient-to-br from-orange-400 to-red-500 p-2 group-hover:scale-105 transition-transform duration-300">
                 <div className="w-full h-full rounded-full overflow-hidden bg-slate-800">
                   <Image
-                    src="profile/profile.jpg?height=400&width=400"
+                    src="profile/profile2.jpg?height=400&width=400"
                     alt="Dawit - Software Developer"
                     width={400}
                     height={400}
