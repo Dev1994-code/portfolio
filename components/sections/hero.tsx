@@ -92,7 +92,7 @@ Let’s create something great together!
         </div>
 
         {/* Technology Stack */}
-        <div className="mt-16 animate-in slide-in-from-bottom duration-1000 delay-500">
+        {/* <div className="mt-16 animate-in slide-in-from-bottom duration-1000 delay-500">
           <h4 className="text-center text-slate-400 mb-8">Skills</h4>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
             {technologies.map((tech, index) => (
@@ -107,7 +107,7 @@ Let’s create something great together!
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
