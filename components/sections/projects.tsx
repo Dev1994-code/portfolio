@@ -24,38 +24,6 @@ export default function Projects() {
   const [filter, setFilter] = useState("all")
 
   const projects: Project[] = [
-//         {
-//   id: 1,
-//   title: "Spare Part Selling App",
-//   description: "E-commerce platform for automotive spare parts",
-//   longDescription:
-//     "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
-//   tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
-//   images: [
-//     "/spare/s1.png?height=400&width=600&text=Product+Listing",
-//     "/spare/s2.png?height=400&width=600&text=Product+Detail",
-//     "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
-//   ],
-//   github: "https://github.com/Dev1994-code",
-//   category: "backend",
-// },
-
-// {
-//   "id": 1,
-//   "title": "AkuLearning AI Tutor Platform",
-//   "description": "An innovative AI-powered tutor delivering personalized education with localized Ethiopian content in low-resource settings",
-//   "longDescription": "AkuLearning is a modern frontend application built with React, JavaScript, and TypeScript, providing an engaging and accessible AI tutor experience. It leverages Retrieval-Augmented Generation (RAG) with Gemini LLMs to offer personalized learning, interactive lessons, progress tracking, and culturally relevant content in Amharic/English. The intuitive interface focuses on user-friendly design, clear navigation, responsive layouts, and seamless educational interactions to bridge learning gaps in underserved areas.",
-//   "tech": ["React", "TypeScript", "JavaScript", "Next.js", "Gemini API", "RAG", "Tailwind CSS"],
-//   "images": [
-//     "/akulLearning/A1.jpg?height=100&width=200&text=AkuLearning+Home+Dashboard",
-//     "/akulLearning/A2.jpg?height=100&width=200&text=Personalized+Lesson+Interface",
-//     "/akulLearning/A3.jpg?height=100&width=200&text=Interactive+AI+Tutor+Chat",
-//     "/akulLearning/A4.jpg?height=100&width=200&text=Progress+Tracking+Screen",
-//     "/akulLearning/A5.jpg?height=100&width=200&text=Localized+Content+Viewer"
-//   ],
-//   "github": "https://github.com/yourusername/akullearning",  // ← replace with actual repo link if public/private
-//   "category": "frontend"
-// },
     {
   id: 1,
   title: "NahuPay Merchant Platform",
@@ -110,6 +78,38 @@ export default function Projects() {
   // github: "https://github.com/Abol-Technologies/abolremitapi", // Replace with actual repo if different
   category: "backend",
 },
+{
+  id: 4,
+  title: "Spare Part Selling App",
+  description: "E-commerce platform for automotive spare parts",
+  longDescription:
+    "An online spare part selling application built with the Laravel and macle. The platform allows users to browse and search for automotive spare parts, add items to their cart, manage orders, and securely complete purchases. Admins can manage inventory, update product details, and monitor sales analytics. Real-time updates ensure stock levels and order statuses are always current.",
+  tech: ["Laravel", "Next.js", "Mysql", "Tailwind CSS", "GitHub Actions"],
+  images: [
+    "/spare/s1.png?height=400&width=600&text=Product+Listing",
+    "/spare/s2.png?height=400&width=600&text=Product+Detail",
+    "/spare/s3.png?height=400&width=600&text=Cart+&+Checkout"
+  ],
+  // github: "https://github.com/Dev1994-code",
+  category: "backend",
+},
+
+{
+  "id": 5,
+  "title": "AkuLearning AI Tutor Platform",
+  "description": "An innovative AI-powered tutor delivering personalized education with localized Ethiopian content in low-resource settings",
+  "longDescription": "AkuLearning is a modern frontend application built with React, JavaScript, and TypeScript, providing an engaging and accessible AI tutor experience. It leverages Retrieval-Augmented Generation (RAG) with Gemini LLMs to offer personalized learning, interactive lessons, progress tracking, and culturally relevant content in Amharic/English. The intuitive interface focuses on user-friendly design, clear navigation, responsive layouts, and seamless educational interactions to bridge learning gaps in underserved areas.",
+  "tech": ["React", "TypeScript", "JavaScript", "Next.js", "Gemini API", "RAG", "Tailwind CSS"],
+  "images": [
+    "/akulLearning/A1.jpg?height=100&width=200&text=AkuLearning+Home+Dashboard",
+    "/akulLearning/A2.jpg?height=100&width=200&text=Personalized+Lesson+Interface",
+    "/akulLearning/A3.jpg?height=100&width=200&text=Interactive+AI+Tutor+Chat",
+    "/akulLearning/A4.jpg?height=100&width=200&text=Progress+Tracking+Screen",
+    "/akulLearning/A5.jpg?height=100&width=200&text=Localized+Content+Viewer"
+  ],
+  // "github": "https://github.com/yourusername/akullearning",
+  "category": "frontend"
+},
 // {
 //   "id": 3,
 //   "title": "Church Donation Platform",
@@ -131,7 +131,7 @@ export default function Projects() {
 
 
     {
-  id: 4,
+  id: 6,
   title: "Nahu Payment Processor Documentation",
   description: "Comprehensive developer documentation and SDKs for Nahu Payment",
   longDescription:
